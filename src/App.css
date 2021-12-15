@@ -1,0 +1,12 @@
+.App {
+    margin-top: 20px;
+}
+
+.img-teaCategories {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}

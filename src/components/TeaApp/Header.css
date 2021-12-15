@@ -1,0 +1,24 @@
+
+
+h2 {
+    color: #96A928;
+    margin: 0 5px;
+    text-align: center;
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h2:before,  h2:after {
+    content: "";
+    border-top:  1px solid #eee;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    
+}
+
+h2:after {
+   margin: 0 5px 0 20px;
+}
