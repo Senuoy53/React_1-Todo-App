@@ -12,7 +12,6 @@ const App = () => {
             { id: 3, img:"../../../imgs/tea/3.jpg", title:"Oolong" },
             { id: 4, img:"../../../imgs/tea/4.jpg", title:"Thé blanc" },
             { id: 5, img:"../../../imgs/tea/5.jpg", title:"Rooibos" },
-            { id: 6, img:"../../../imgs/tea/5.jpg", title:"Rooibos" },
           ]
 
   const teaItems = info.map((teaItem)=> {
