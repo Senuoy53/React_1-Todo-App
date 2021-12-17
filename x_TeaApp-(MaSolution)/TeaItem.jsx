@@ -6,8 +6,8 @@ const TeaItem = (props) => {
         
 
                 <div className="box">
-                    <img src={props.img} alt={props.title}/>
-                    <h3>{props.title}</h3>
+                    <img src={props.amine} alt={props.fadi}/>
+                    <h3>{props.fadi}</h3>
                 </div>
             
     )

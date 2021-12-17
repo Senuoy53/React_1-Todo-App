@@ -1,0 +1,16 @@
+@import url("../../pages/Home/index.css");
+
+.teaProducts  {
+    background-color: var(---white);
+    margin-top: 30px;
+    padding: 20px 10px;
+
+}
+
+.teaProducts .products-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px;
+}
+

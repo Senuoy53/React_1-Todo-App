@@ -1,0 +1,73 @@
+
+
+/* +++++++++++++++++++++++++ Config General +++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Google font  */
+    /*  */
+
+
+/* font-family:  */
+    /*  */
+
+
+/* Color Variables */
+:root {
+    ---white: #fff;
+    --light-white: #ddd;
+    --bg-main-color: #F3F2F1;
+    --green-titles: #96A928;
+    --text-color: #5B625A;
+    --bg-btn-color: #BC8B60;
+    --bg-footer-color: #829D24;
+    --bg-header-color: #96B00F;
+    --gray-color :#D0D898;
+    --bg-about-color:#EAEFCF;
+    --bg-stars-color: #FFDB0E;
+    --bg-lst-star-color :#9D9693;
+    --bg-list-color: #eee;
+    --bg-heart-color: #FF806C;
+
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+/* Width of the header and main section */
+.header,.heading,.slideSection ,.teaCategories,.teaProducts, .aboutSection, .listingSection, .productSection, .contactSection {
+
+    max-width: 1100px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* ======================
+main Section
+========================*/
+main {
+    background-color: var(--bg-main-color);
+    
+
+}

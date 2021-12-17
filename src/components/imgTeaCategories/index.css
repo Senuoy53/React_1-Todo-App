@@ -1,0 +1,28 @@
+@import url("../../pages/Home/index.css");
+
+.img-teaCategories {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.img-teaCategories .box img {
+    transition: all .2s linear;
+}
+
+.img-teaCategories .box:hover img {
+    opacity: 0.5;
+}
+
+.img-teaCategories .box img  {
+    width: 80%;
+}
+
+
+.img-teaCategories .box h3  {
+    color: var(--text-color);
+    
+}
